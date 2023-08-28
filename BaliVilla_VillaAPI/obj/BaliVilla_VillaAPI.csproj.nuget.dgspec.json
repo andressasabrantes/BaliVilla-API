@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\andre\\OneDrive\\Área de Trabalho\\BaliVilla\\BaliVilla_VillaAPI\\BaliVilla_VillaAPI.csproj": {}
+    "C:\\Users\\andre\\OneDrive\\Área de Trabalho\\BaliVilla-API\\BaliVilla_VillaAPI\\BaliVilla_VillaAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\andre\\OneDrive\\Área de Trabalho\\BaliVilla\\BaliVilla_VillaAPI\\BaliVilla_VillaAPI.csproj": {
+    "C:\\Users\\andre\\OneDrive\\Área de Trabalho\\BaliVilla-API\\BaliVilla_VillaAPI\\BaliVilla_VillaAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\andre\\OneDrive\\Área de Trabalho\\BaliVilla\\BaliVilla_VillaAPI\\BaliVilla_VillaAPI.csproj",
+        "projectUniqueName": "C:\\Users\\andre\\OneDrive\\Área de Trabalho\\BaliVilla-API\\BaliVilla_VillaAPI\\BaliVilla_VillaAPI.csproj",
         "projectName": "BaliVilla_VillaAPI",
-        "projectPath": "C:\\Users\\andre\\OneDrive\\Área de Trabalho\\BaliVilla\\BaliVilla_VillaAPI\\BaliVilla_VillaAPI.csproj",
+        "projectPath": "C:\\Users\\andre\\OneDrive\\Área de Trabalho\\BaliVilla-API\\BaliVilla_VillaAPI\\BaliVilla_VillaAPI.csproj",
         "packagesPath": "C:\\Users\\andre\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\andre\\OneDrive\\Área de Trabalho\\BaliVilla\\BaliVilla_VillaAPI\\obj\\",
+        "outputPath": "C:\\Users\\andre\\OneDrive\\Área de Trabalho\\BaliVilla-API\\BaliVilla_VillaAPI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

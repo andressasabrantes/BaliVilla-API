@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "kqZ2BwIrP6ExEaCt4OYLNqgAsJr0GQNq2gRqpy0CBN2PezPGdj2Mk9ODYPlFiRvgzO/UrZqliG+G6dZh7kSPCw==",
+  "dgSpecHash": "eq1CqXh42ihu06fT6tWSlbah44Eard4mjYBMg9uhtIo381lu41KIzTYnOeNTq2rBItEMJoYI7lYjQdy6VPUgig==",
   "success": true,
-  "projectFilePath": "C:\\Users\\andre\\OneDrive\\Área de Trabalho\\BaliVilla\\BaliVilla_VillaAPI\\BaliVilla_VillaAPI.csproj",
+  "projectFilePath": "C:\\Users\\andre\\OneDrive\\Área de Trabalho\\BaliVilla-API\\BaliVilla_VillaAPI\\BaliVilla_VillaAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\andre\\.nuget\\packages\\microsoft.aspnetcore.openapi\\7.0.5\\microsoft.aspnetcore.openapi.7.0.5.nupkg.sha512",
     "C:\\Users\\andre\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
