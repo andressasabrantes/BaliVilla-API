@@ -1,4 +1,5 @@
-﻿using BaliVilla_VillaAPI.Models;
+﻿using BaliVilla_VillaAPI.Data;
+using BaliVilla_VillaAPI.Models;
 using BaliVilla_VillaAPI.Models.Dto;
 using Microsoft.AspNetCore.Mvc;
 
@@ -11,11 +12,7 @@ namespace BaliVilla_VillaAPI.Controllers
         [HttpGet]
         public IEnumerable<VillaDTO> GetVillas()
         {
-            return new List<VillaDTO>
-            {
-                new VillaDTO {Id=1, Name="Ocean View"},
-                new VillaDTO {Id=2, Name="Pool View"}
-            };
+            return VillaStore.villaList;
         }
 
     }
