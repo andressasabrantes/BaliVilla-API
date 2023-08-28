@@ -16,10 +16,20 @@ namespace BaliVilla_VillaAPI.Controllers
         }
 
         [HttpGet("{id:int}")]
-        public VillaDTO GetVilla(int id)
+        public ActionResult<VillaDTO> GetVilla(int id)
         {
-            return VillaStore.villaList.FirstOrDefault(u=>u.Id==id);
-        }
+            if (id == 0)
+            {
+                return BadRequest();
+            }
 
+            var villa = VillaStore.villaList.FirstOrDefault(u => u.Id == id);
+            if (villa == null)
+            {
+                return NotFound();
+            }
+
+            return Ok(villa);
+        }
     }
 }
