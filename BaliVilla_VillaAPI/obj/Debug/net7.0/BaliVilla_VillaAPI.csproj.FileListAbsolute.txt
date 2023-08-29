@@ -31,3 +31,7 @@ C:\Users\andre\OneDrive\Área de Trabalho\BaliVilla-API\BaliVilla_VillaAPI\obj\D
 C:\Users\andre\OneDrive\Área de Trabalho\BaliVilla-API\BaliVilla_VillaAPI\obj\Debug\net7.0\BaliVilla_VillaAPI.pdb
 C:\Users\andre\OneDrive\Área de Trabalho\BaliVilla-API\BaliVilla_VillaAPI\obj\Debug\net7.0\BaliVilla_VillaAPI.genruntimeconfig.cache
 C:\Users\andre\OneDrive\Área de Trabalho\BaliVilla-API\BaliVilla_VillaAPI\obj\Debug\net7.0\ref\BaliVilla_VillaAPI.dll
+C:\Users\andre\OneDrive\Área de Trabalho\BaliVilla-API\BaliVilla_VillaAPI\bin\Debug\net7.0\Microsoft.AspNetCore.JsonPatch.dll
+C:\Users\andre\OneDrive\Área de Trabalho\BaliVilla-API\BaliVilla_VillaAPI\bin\Debug\net7.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+C:\Users\andre\OneDrive\Área de Trabalho\BaliVilla-API\BaliVilla_VillaAPI\bin\Debug\net7.0\Newtonsoft.Json.dll
+C:\Users\andre\OneDrive\Área de Trabalho\BaliVilla-API\BaliVilla_VillaAPI\bin\Debug\net7.0\Newtonsoft.Json.Bson.dll
