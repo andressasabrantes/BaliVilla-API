@@ -1,4 +1,5 @@
 ﻿using BaliVilla_VillaAPI.Data;
+using BaliVilla_VillaAPI.Logging;
 using BaliVilla_VillaAPI.Models;
 using BaliVilla_VillaAPI.Models.Dto;
 using Microsoft.AspNetCore.JsonPatch;
@@ -10,10 +11,9 @@ namespace BaliVilla_VillaAPI.Controllers
     [Route("api/VillaAPI")]
     [ApiController]
     public class VillaAPIController : ControllerBase
-    {       
-        private readonly ILogger<VillaAPIController> _logger;
-
-        public VillaAPIController(ILogger<VillaAPIController> logger)
+    {
+        private readonly ILogging _logger;
+        public VillaAPIController(ILogging logger)
         {
             _logger = logger;
         }
@@ -22,7 +22,7 @@ namespace BaliVilla_VillaAPI.Controllers
         [ProducesResponseType(StatusCodes.Status200OK)]
         public IEnumerable<VillaDTO> GetVillas()
         {
-            _logger.LogInformation("Getting all villas");
+            _logger.Log("Getting all villas", "");
             return VillaStore.villaList;
         }
 
@@ -34,7 +34,7 @@ namespace BaliVilla_VillaAPI.Controllers
         {
             if (id == 0)
             {
-                _logger.LogInformation("Get Villa Error with Id " + id);
+                _logger.Log("Get Villa Error with Id " + id, "error");
                 return BadRequest();
             }
             var villa = VillaStore.villaList.FirstOrDefault(u => u.Id == id);
