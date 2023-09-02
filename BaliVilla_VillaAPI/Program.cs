@@ -1,3 +1,4 @@
+using BaliVilla_VillaAPI;
 using BaliVilla_VillaAPI.Data;
 using Microsoft.EntityFrameworkCore;
 
@@ -7,8 +8,7 @@ builder.Services.AddDbContext<ApplicationDbContext>(option => {
     option.UseSqlServer(builder.Configuration.GetConnectionString("DefaultSQLConnection"));
 });
 
-// Add services to the container.
-
+builder.Services.AddAutoMapper(typeof(MappingConfig));
 builder.Services.AddControllers().AddNewtonsoftJson().AddXmlDataContractSerializerFormatters();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
