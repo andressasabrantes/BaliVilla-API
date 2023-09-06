@@ -1,0 +1,10 @@
+C:\Users\andre\OneDrive\Área de Trabalho\BaliVilla-API\BaliVilla_Utility\bin\Debug\BaliVilla_Utility.dll
+C:\Users\andre\OneDrive\Área de Trabalho\BaliVilla-API\BaliVilla_Utility\bin\Debug\BaliVilla_Utility.pdb
+C:\Users\andre\OneDrive\Área de Trabalho\BaliVilla-API\BaliVilla_Utility\bin\Debug\Microsoft.Analytics.Interfaces.dll
+C:\Users\andre\OneDrive\Área de Trabalho\BaliVilla-API\BaliVilla_Utility\bin\Debug\Microsoft.Analytics.Interfaces.Streaming.dll
+C:\Users\andre\OneDrive\Área de Trabalho\BaliVilla-API\BaliVilla_Utility\bin\Debug\Microsoft.Analytics.Types.dll
+C:\Users\andre\OneDrive\Área de Trabalho\BaliVilla-API\BaliVilla_Utility\obj\Debug\BaliVilla_Utility.csproj.AssemblyReference.cache
+C:\Users\andre\OneDrive\Área de Trabalho\BaliVilla-API\BaliVilla_Utility\obj\Debug\BaliVilla_Utility.csproj.CoreCompileInputs.cache
+C:\Users\andre\OneDrive\Área de Trabalho\BaliVilla-API\BaliVilla_Utility\obj\Debug\BaliVilla_Utility.csproj.CopyComplete
+C:\Users\andre\OneDrive\Área de Trabalho\BaliVilla-API\BaliVilla_Utility\obj\Debug\BaliVilla_Utility.dll
+C:\Users\andre\OneDrive\Área de Trabalho\BaliVilla-API\BaliVilla_Utility\obj\Debug\BaliVilla_Utility.pdb

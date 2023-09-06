@@ -29,3 +29,8 @@ C:\Users\andre\OneDrive\Área de Trabalho\BaliVilla-API\BaliVilla_Web\obj\Debug\
 C:\Users\andre\OneDrive\Área de Trabalho\BaliVilla-API\BaliVilla_Web\obj\Debug\net7.0\BaliVilla_Web.pdb
 C:\Users\andre\OneDrive\Área de Trabalho\BaliVilla-API\BaliVilla_Web\obj\Debug\net7.0\BaliVilla_Web.genruntimeconfig.cache
 C:\Users\andre\OneDrive\Área de Trabalho\BaliVilla-API\BaliVilla_Web\obj\Debug\net7.0\ref\BaliVilla_Web.dll
+C:\Users\andre\OneDrive\Área de Trabalho\BaliVilla-API\BaliVilla_Web\bin\Debug\net7.0\AutoMapper.dll
+C:\Users\andre\OneDrive\Área de Trabalho\BaliVilla-API\BaliVilla_Web\bin\Debug\net7.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\andre\OneDrive\Área de Trabalho\BaliVilla-API\BaliVilla_Web\bin\Debug\net7.0\BaliVilla_Utility.dll
+C:\Users\andre\OneDrive\Área de Trabalho\BaliVilla-API\BaliVilla_Web\bin\Debug\net7.0\BaliVilla_Utility.pdb
+C:\Users\andre\OneDrive\Área de Trabalho\BaliVilla-API\BaliVilla_Web\obj\Debug\net7.0\BaliVilla_Web.csproj.CopyComplete
