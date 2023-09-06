@@ -4,6 +4,11 @@
     <TargetFramework>net7.0</TargetFramework>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
+    <UserSecretsId>7301dd26-7a9b-4110-bc3a-2b21a878567b</UserSecretsId>
   </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\BaliVilla_Utility\BaliVilla_Utility.csproj" />
+  </ItemGroup>
 
 </Project>

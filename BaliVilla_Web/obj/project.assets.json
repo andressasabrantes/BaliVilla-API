@@ -1,11 +1,29 @@
 {
   "version": 3,
   "targets": {
-    "net7.0": {}
+    "net7.0": {
+      "BaliVilla_Utility/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/BaliVilla_Utility.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BaliVilla_Utility.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "BaliVilla_Utility/1.0.0": {
+      "type": "project",
+      "path": "../BaliVilla_Utility/BaliVilla_Utility.csproj",
+      "msbuildProject": "../BaliVilla_Utility/BaliVilla_Utility.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net7.0": []
+    "net7.0": [
+      "BaliVilla_Utility >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\andre\\.nuget\\packages\\": {},
@@ -39,7 +57,11 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\andre\\OneDrive\\Área de Trabalho\\BaliVilla-API\\BaliVilla_Utility\\BaliVilla_Utility.csproj": {
+              "projectPath": "C:\\Users\\andre\\OneDrive\\Área de Trabalho\\BaliVilla-API\\BaliVilla_Utility\\BaliVilla_Utility.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

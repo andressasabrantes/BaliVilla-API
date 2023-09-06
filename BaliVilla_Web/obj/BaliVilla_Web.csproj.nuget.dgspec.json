@@ -4,6 +4,21 @@
     "C:\\Users\\andre\\OneDrive\\Área de Trabalho\\BaliVilla-API\\BaliVilla_Web\\BaliVilla_Web.csproj": {}
   },
   "projects": {
+    "C:\\Users\\andre\\OneDrive\\Área de Trabalho\\BaliVilla-API\\BaliVilla_Utility\\BaliVilla_Utility.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Users\\andre\\OneDrive\\Área de Trabalho\\BaliVilla-API\\BaliVilla_Utility\\BaliVilla_Utility.csproj",
+        "projectName": "BaliVilla_Utility",
+        "projectPath": "C:\\Users\\andre\\OneDrive\\Área de Trabalho\\BaliVilla-API\\BaliVilla_Utility\\BaliVilla_Utility.csproj",
+        "frameworks": {
+          "net472": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    },
     "C:\\Users\\andre\\OneDrive\\Área de Trabalho\\BaliVilla-API\\BaliVilla_Web\\BaliVilla_Web.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -32,7 +47,11 @@
         "frameworks": {
           "net7.0": {
             "targetAlias": "net7.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Users\\andre\\OneDrive\\Área de Trabalho\\BaliVilla-API\\BaliVilla_Utility\\BaliVilla_Utility.csproj": {
+                "projectPath": "C:\\Users\\andre\\OneDrive\\Área de Trabalho\\BaliVilla-API\\BaliVilla_Utility\\BaliVilla_Utility.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
