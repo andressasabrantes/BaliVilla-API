@@ -19,12 +19,14 @@ namespace BaliVilla_VillaAPI.Controllers
     {
         protected APIResponse _response;
         private readonly IVillaNumberRepository _dbVillaNumber;
+        private readonly IVillaRepository _dbVilla;
         private readonly IMapper _mapper;
-        public VillaNumberAPIController(IVillaNumberRepository dbVillaNumber, IMapper mapper)
+        public VillaNumberAPIController(IVillaNumberRepository dbVillaNumber, IMapper mapper, IVillaRepository dbVilla)
         {
             _dbVillaNumber = dbVillaNumber;
             _mapper = mapper;
             this._response = new();
+            _dbVilla = dbVilla;
         }
 
         [HttpGet]
@@ -93,6 +95,12 @@ namespace BaliVilla_VillaAPI.Controllers
                     return BadRequest(ModelState);
                 }
 
+                if (await _dbVilla.GetAsync(u => u.Id == createDTO.VillaID) == null)
+                {
+                    ModelState.AddModelError("CustomError", "Villa ID is invalid");
+                    return BadRequest(ModelState);
+                }
+
                 if (createDTO == null)
                 {
                     return BadRequest();
@@ -157,6 +165,12 @@ namespace BaliVilla_VillaAPI.Controllers
                     return BadRequest();
                 }
 
+                if (await _dbVilla.GetAsync(u => u.Id == updateDTO.VillaID) == null)
+                {
+                    ModelState.AddModelError("CustomError", "Villa ID is invalid");
+                    return BadRequest(ModelState);
+                }
+
                 VillaNumber model = _mapper.Map<VillaNumber>(updateDTO);
 
                 await _dbVillaNumber.UpdateAsync(model);
@@ -171,35 +185,6 @@ namespace BaliVilla_VillaAPI.Controllers
                     = new List<string>() { ex.ToString() };
             }
             return _response;
-        }
-
-        [HttpPatch("{id:int}", Name = "UpdatePartialVillaNumber")]
-        [ProducesResponseType(StatusCodes.Status204NoContent)]
-        [ProducesResponseType(StatusCodes.Status400BadRequest)]
-        public async Task<IActionResult> UpdatePartialVillaNumber(int id, JsonPatchDocument<VillaNumberUpdateDTO> patchDTO)
-        {
-            if (patchDTO == null || id == 0)
-            {
-                return BadRequest();
-            }
-            var villaNumber = await _dbVillaNumber.GetAsync(u => u.VillaNo == id, tracked:false);
-
-            VillaNumberUpdateDTO villaNumberDTO = _mapper.Map<VillaNumberUpdateDTO>(villaNumber);
-
-            if (villaNumber == null)
-            {
-                return BadRequest();
-            }
-            patchDTO.ApplyTo(villaNumberDTO, ModelState);
-            VillaNumber model = _mapper.Map<VillaNumber>(villaNumberDTO);
-
-            await _dbVillaNumber.UpdateAsync(model);
-
-            if (!ModelState.IsValid)
-            {
-                return BadRequest(ModelState);
-            }
-            return NoContent();
         }
     }
 }
