@@ -13,7 +13,7 @@ namespace BaliVilla_Web.Services
         public VillaService(IHttpClientFactory clientFactory, IConfiguration configuration) : base(clientFactory)
         {
             _clientFactory = clientFactory;
-            villaUrl = configuration.GetValue<string>("ServiceUrls: VillaAPI");
+            villaUrl = configuration.GetValue<string>("ServiceUrls:VillaAPI");
         }
 
         public Task<T> CreateAsync<T>(VillaCreateDTO dto)
@@ -22,7 +22,7 @@ namespace BaliVilla_Web.Services
             {
                 ApiType = SD.ApiType.POST,
                 Data = dto,
-                Url = villaUrl + "/api/villaAPI"
+                Url = villaUrl + "/api/VillaAPI"
             });
         }
 
@@ -40,7 +40,7 @@ namespace BaliVilla_Web.Services
             return SendAsync<T>(new APIRequest()
             {
                 ApiType = SD.ApiType.GET,
-                Url = villaUrl + "/api/villaAPI"
+                Url = villaUrl + "/api/VillaAPI"
             });
         }
 
@@ -49,7 +49,7 @@ namespace BaliVilla_Web.Services
             return SendAsync<T>(new APIRequest()
             {
                 ApiType = SD.ApiType.GET,
-                Url = villaUrl + "/api/villaAPI/" + id
+                Url = villaUrl + "/api/VillaAPI/" + id
             });
         }
 
@@ -59,7 +59,7 @@ namespace BaliVilla_Web.Services
             {
                 ApiType = SD.ApiType.PUT,
                 Data = dto,
-                Url = villaUrl + "/api/villaAPI/" + dto.Id
+                Url = villaUrl + "/api/VillaAPI/" + dto.Id
             });
         }
     }

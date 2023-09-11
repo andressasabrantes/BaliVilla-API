@@ -34,3 +34,4 @@ C:\Users\andre\OneDrive\Área de Trabalho\BaliVilla-API\BaliVilla_Web\bin\Debug\
 C:\Users\andre\OneDrive\Área de Trabalho\BaliVilla-API\BaliVilla_Web\bin\Debug\net7.0\BaliVilla_Utility.dll
 C:\Users\andre\OneDrive\Área de Trabalho\BaliVilla-API\BaliVilla_Web\bin\Debug\net7.0\BaliVilla_Utility.pdb
 C:\Users\andre\OneDrive\Área de Trabalho\BaliVilla-API\BaliVilla_Web\obj\Debug\net7.0\BaliVilla_Web.csproj.CopyComplete
+C:\Users\andre\OneDrive\Área de Trabalho\BaliVilla-API\BaliVilla_Web\bin\Debug\net7.0\Newtonsoft.Json.dll
