@@ -5,6 +5,10 @@
       "PackagePath": "staticwebassets\\BaliVilla_Web.bundle.scp.css"
     },
     {
+      "Id": "C:\\Users\\andre\\OneDrive\\Área de Trabalho\\BaliVilla-API\\BaliVilla_Web\\wwwroot\\css\\Bootstrap.css",
+      "PackagePath": "staticwebassets\\css\\Bootstrap.css"
+    },
+    {
       "Id": "C:\\Users\\andre\\OneDrive\\Área de Trabalho\\BaliVilla-API\\BaliVilla_Web\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },

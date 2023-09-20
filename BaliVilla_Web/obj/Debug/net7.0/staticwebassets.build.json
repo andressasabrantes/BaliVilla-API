@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "I8EHPVSaNqjHnYBFeVeISiWDL8PdpVKqCUul1ckox/Q=",
+  "Hash": "pAmhTgsbPMBYserB5JCZoP40Tq0AaN06Drr8aSZsG9k=",
   "Source": "BaliVilla_Web",
   "BasePath": "_content/BaliVilla_Web",
   "Mode": "Default",
@@ -49,6 +49,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\andre\\OneDrive\\Área de Trabalho\\BaliVilla-API\\BaliVilla_Web\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\BaliVilla_Web.bundle.scp.css"
+    },
+    {
+      "Identity": "C:\\Users\\andre\\OneDrive\\Área de Trabalho\\BaliVilla-API\\BaliVilla_Web\\wwwroot\\css\\Bootstrap.css",
+      "SourceId": "BaliVilla_Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\andre\\OneDrive\\Área de Trabalho\\BaliVilla-API\\BaliVilla_Web\\wwwroot\\",
+      "BasePath": "_content/BaliVilla_Web",
+      "RelativePath": "css/Bootstrap.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\Bootstrap.css"
     },
     {
       "Identity": "C:\\Users\\andre\\OneDrive\\Área de Trabalho\\BaliVilla-API\\BaliVilla_Web\\wwwroot\\css\\site.css",
