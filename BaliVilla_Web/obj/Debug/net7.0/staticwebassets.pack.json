@@ -17,6 +17,14 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\Users\\andre\\OneDrive\\Área de Trabalho\\BaliVilla-API\\BaliVilla_Web\\wwwroot\\images\\home\\balivilla.jpg",
+      "PackagePath": "staticwebassets\\images\\home\\balivilla.jpg"
+    },
+    {
+      "Id": "C:\\Users\\andre\\OneDrive\\Área de Trabalho\\BaliVilla-API\\BaliVilla_Web\\wwwroot\\images\\home\\slide1.jpg",
+      "PackagePath": "staticwebassets\\images\\home\\slide1.jpg"
+    },
+    {
       "Id": "C:\\Users\\andre\\OneDrive\\Área de Trabalho\\BaliVilla-API\\BaliVilla_Web\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },

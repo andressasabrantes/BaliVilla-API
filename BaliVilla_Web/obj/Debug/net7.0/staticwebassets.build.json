@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "pAmhTgsbPMBYserB5JCZoP40Tq0AaN06Drr8aSZsG9k=",
+  "Hash": "WrTyqCr17f8h+6CfsnrmbXP2lYvrnZ5q24UaXUCQaXQ=",
   "Source": "BaliVilla_Web",
   "BasePath": "_content/BaliVilla_Web",
   "Mode": "Default",
@@ -100,6 +100,40 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "C:\\Users\\andre\\OneDrive\\Área de Trabalho\\BaliVilla-API\\BaliVilla_Web\\wwwroot\\images\\home\\balivilla.jpg",
+      "SourceId": "BaliVilla_Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\andre\\OneDrive\\Área de Trabalho\\BaliVilla-API\\BaliVilla_Web\\wwwroot\\",
+      "BasePath": "_content/BaliVilla_Web",
+      "RelativePath": "images/home/balivilla.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\home\\balivilla.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\andre\\OneDrive\\Área de Trabalho\\BaliVilla-API\\BaliVilla_Web\\wwwroot\\images\\home\\slide1.jpg",
+      "SourceId": "BaliVilla_Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\andre\\OneDrive\\Área de Trabalho\\BaliVilla-API\\BaliVilla_Web\\wwwroot\\",
+      "BasePath": "_content/BaliVilla_Web",
+      "RelativePath": "images/home/slide1.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\home\\slide1.jpg"
     },
     {
       "Identity": "C:\\Users\\andre\\OneDrive\\Área de Trabalho\\BaliVilla-API\\BaliVilla_Web\\wwwroot\\js\\site.js",
