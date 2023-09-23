@@ -102,10 +102,5 @@ namespace BaliVilla_Web.Controllers
 
             return View(model);
         }
-
-        public async Task<IActionResult> DetailsVilla()
-        {
-            return View();
-        }
     }
 }
