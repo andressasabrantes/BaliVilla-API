@@ -1,6 +1,6 @@
 ﻿namespace BaliVilla_VillaAPI.Models.Dto
 {
-    public class RegisterationRequestDTO
+    public class RegistrationRequestDTO
     {
         public string UserName { get; set; }
         public string Name { get; set; }
