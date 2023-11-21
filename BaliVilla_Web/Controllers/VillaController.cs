@@ -43,10 +43,12 @@ namespace BaliVilla_Web.Controllers
                 var response = await _villaService.CreateAsync<APIResponse>(model);
                 if (response != null && response.IsSuccess)
                 {
+                    TempData["success"] = "Villa created successfully";
                     return RedirectToAction(nameof(IndexVilla));
                 }
             }
 
+            TempData["error"] = "Error encoutered.";
             return View(model);
         }
 
@@ -68,6 +70,7 @@ namespace BaliVilla_Web.Controllers
         {
             if (ModelState.IsValid)
             {
+                TempData["success"] = "Villa updated successfully";
                 var response = await _villaService.UpdateAsync<APIResponse>(model);
                 if (response != null && response.IsSuccess)
                 {
@@ -75,6 +78,7 @@ namespace BaliVilla_Web.Controllers
                 }
             }
 
+            TempData["error"] = "Error encoutered.";
             return View(model);
         }
 
@@ -97,9 +101,11 @@ namespace BaliVilla_Web.Controllers
             var response = await _villaService.DeleteAsync<APIResponse>(model.Id);
             if (response != null && response.IsSuccess)
             {
+                TempData["success"] = "Villa deleted successfully";
                 return RedirectToAction(nameof(IndexVilla));
             }
 
+            TempData["error"] = "Error encoutered.";
             return View(model);
         }
     }
