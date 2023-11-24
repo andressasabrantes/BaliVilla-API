@@ -36,7 +36,11 @@ namespace BaliVilla_VillaAPI.Repository
 
             if (user == null)
             {
-                return null;
+                return new LoginResponseDTO()
+                {
+                    Token = "",
+                    User = null
+                };
             }
 
             //if user was found, generate JWT Token
