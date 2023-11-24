@@ -17,7 +17,7 @@ namespace BaliVilla_VillaAPI.Repository
         public UserRepository(ApplicationDbContext db, IConfiguration configuration)
         {
             _db = db;
-            secretKey = configuration.GetValue<string>("ApiSettings: Secret");
+            secretKey = configuration.GetValue<string>("ApiSettings:Secret");
         }
 
         public bool IsUniqueUser(string username)
