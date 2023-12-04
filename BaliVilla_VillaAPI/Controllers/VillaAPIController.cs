@@ -29,7 +29,6 @@ namespace BaliVilla_VillaAPI.Controllers
         }
 
         [HttpGet]
-        [Authorize]
         [ProducesResponseType(StatusCodes.Status403Forbidden)]
         [ProducesResponseType(StatusCodes.Status401Unauthorized)]
         [ProducesResponseType(StatusCodes.Status200OK)]
@@ -52,7 +51,6 @@ namespace BaliVilla_VillaAPI.Controllers
         }
 
         [HttpGet("{id:int}", Name = "GetVilla")]
-        [Authorize(Roles = "admin")]
         [ProducesResponseType(StatusCodes.Status403Forbidden)]
         [ProducesResponseType(StatusCodes.Status401Unauthorized)]
         [ProducesResponseType(StatusCodes.Status200OK)]
