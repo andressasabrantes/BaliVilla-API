@@ -31,23 +31,31 @@
                             <a class="nav-link bg-primary" asp-area="" asp-controller="Villa" asp-action="IndexVilla">Villa</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link bg-primary" asp-area="" asp-controller="VillaNumber" asp-action="IndexVillaNumber">Villa Number</a>
+                            <a class="nav-link bg-primary" asp-area="" asp-controller="VillaNumber" asp-action="IndexVillaNumber">Rooms</a>
                         </li>
                         @if(httpAcc.HttpContext.Session.GetString(SD.SessionToken) != null &&
                         httpAcc.HttpContext.Session.GetString(SD.SessionToken).ToString().Length > 0)
                         {
-                            <li class="nav-item">
-                                <a class="nav-link bg-primary" asp-controller="Auth" asp-action="Logout">Logout</a>
-                            </li>
+                            <div class="container">
+                                <ul class="nav justify-content-end">
+                                    <li class="nav-item">
+                                        <a class="nav-link bg-primary" asp-controller="Auth" asp-action="Logout">Logout</a>
+                                    </li>
+                                </ul>
+                            </div>
                         }
                         else
                         {
-                            <li class="nav-item">
-                                <a class="nav-link bg-primary" asp-controller="Auth" asp-action="Login">Login</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link bg-primary" asp-controller="Auth" asp-action="Register">Register</a>
-                            </li>
+                            <div class="container">
+                                <ul class="nav justify-content-end">
+                                    <li class="nav-item">
+                                        <a class="nav-link bg-primary" asp-controller="Auth" asp-action="Login">Login</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link bg-primary" asp-controller="Auth" asp-action="Register">Register</a>
+                                    </li>
+                                </ul>
+                            </div>
                         }
                     </ul>
                 </div>
