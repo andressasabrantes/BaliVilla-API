@@ -3,6 +3,7 @@ using BaliVilla_Web.Models;
 using BaliVilla_Web.Services.IServices;
 using Newtonsoft.Json;
 using System;
+using System.Net.Http.Headers;
 using System.Text;
 
 namespace BaliVilla_Web.Services
@@ -48,6 +49,11 @@ namespace BaliVilla_Web.Services
                 }
 
                 HttpResponseMessage apiResponse = null;
+
+                if (!string.IsNullOrEmpty(apiRequest.Token))
+                {
+                    client.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", apiRequest.Token);
+                }
 
                 apiResponse = await client.SendAsync(message);
 
