@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "hJpREegSyDSx2lnqqDB6yS5mPgLtVp+hq27LUR8CbVW+6gQMQ5CulxOnkmIc6/BLjwPl3FMYl8acy4d7wr1Quw==",
+  "dgSpecHash": "2QxsX3AKG4Z+kU14Q9T6QMHV1WsCJIxo8d4Iq/tQ3Z7AVnVaeM5GbRhK3rHni7IlKOt4qY143iXALf3a2uMDZQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\andre\\OneDrive\\Área de Trabalho\\BaliVilla-API\\BaliVilla_VillaAPI\\BaliVilla_VillaAPI.csproj",
   "expectedPackageFiles": [
@@ -12,6 +12,8 @@
     "C:\\Users\\andre\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\7.0.0\\microsoft.aspnetcore.authentication.jwtbearer.7.0.0.nupkg.sha512",
     "C:\\Users\\andre\\.nuget\\packages\\microsoft.aspnetcore.jsonpatch\\8.0.0-preview.7.23375.9\\microsoft.aspnetcore.jsonpatch.8.0.0-preview.7.23375.9.nupkg.sha512",
     "C:\\Users\\andre\\.nuget\\packages\\microsoft.aspnetcore.mvc.newtonsoftjson\\7.0.10\\microsoft.aspnetcore.mvc.newtonsoftjson.7.0.10.nupkg.sha512",
+    "C:\\Users\\andre\\.nuget\\packages\\microsoft.aspnetcore.mvc.versioning\\5.1.0\\microsoft.aspnetcore.mvc.versioning.5.1.0.nupkg.sha512",
+    "C:\\Users\\andre\\.nuget\\packages\\microsoft.aspnetcore.mvc.versioning.apiexplorer\\5.1.0\\microsoft.aspnetcore.mvc.versioning.apiexplorer.5.1.0.nupkg.sha512",
     "C:\\Users\\andre\\.nuget\\packages\\microsoft.aspnetcore.openapi\\7.0.5\\microsoft.aspnetcore.openapi.7.0.5.nupkg.sha512",
     "C:\\Users\\andre\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "C:\\Users\\andre\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
