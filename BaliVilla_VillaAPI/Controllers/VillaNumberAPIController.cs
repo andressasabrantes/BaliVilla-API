@@ -13,10 +13,13 @@ using System.Collections.Generic;
 using System.Data;
 using System.Net;
 
+
 namespace BaliVilla_VillaAPI.Controllers
 {
-    [Route("api/VillaNumberAPI")]
+    [Route("api/v{version:apiVersion}/VillaNumberAPI")]
     [ApiController]
+    [ApiVersion("1.0")]
+    [ApiVersion("2.0")]
     public class VillaNumberAPIController : ControllerBase
     {
         protected APIResponse _response;
@@ -32,6 +35,7 @@ namespace BaliVilla_VillaAPI.Controllers
         }
 
         [HttpGet]
+        [MapToApiVersion("1.0")]
         [ProducesResponseType(StatusCodes.Status200OK)]
         public async Task<ActionResult<APIResponse>> GetVillaNumbers()
         {
@@ -49,6 +53,13 @@ namespace BaliVilla_VillaAPI.Controllers
                     = new List<string>() { ex.ToString() };
             }
             return _response;
+        }
+
+        [MapToApiVersion("2.0")]
+        [HttpGet]
+        public IEnumerable<string> Get()
+        {
+            return new string[] { "value1", "value2" };
         }
 
         [HttpGet("{id:int}", Name = "GetVillaNumber")]
