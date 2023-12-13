@@ -4,7 +4,7 @@ using BaliVilla_VillaAPI.Repository.IRepository;
 using Microsoft.AspNetCore.Mvc;
 using System.Net;
 
-namespace BaliVilla_VillaAPI.Controllers
+namespace BaliVilla_VillaAPI.Controllers.v1
 {
     [Route("api/v{version:apiVersion}/UserAuth")]
     [ApiController]
@@ -17,7 +17,7 @@ namespace BaliVilla_VillaAPI.Controllers
         public UserController(IUserRepository userRepo)
         {
             _userRepo = userRepo;
-            this._response = new();
+            _response = new();
         }
 
         [HttpPost("login")]
