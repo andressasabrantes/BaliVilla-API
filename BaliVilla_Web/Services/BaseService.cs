@@ -61,7 +61,7 @@ namespace BaliVilla_Web.Services
                 try
                 {
                     APIResponse ApiResponse = JsonConvert.DeserializeObject<APIResponse>(apiContent);
-                    if (apiResponse.StatusCode == System.Net.HttpStatusCode.BadRequest || apiResponse.StatusCode == System.Net.HttpStatusCode.NotFound)
+                    if (ApiResponse != null && (apiResponse.StatusCode == System.Net.HttpStatusCode.BadRequest || apiResponse.StatusCode == System.Net.HttpStatusCode.NotFound))
                     {
                         ApiResponse.StatusCode = System.Net.HttpStatusCode.BadRequest;
                         ApiResponse.IsSuccess = false;
@@ -69,7 +69,6 @@ namespace BaliVilla_Web.Services
                         var returnObj = JsonConvert.DeserializeObject<T>(res);
                         return returnObj;
                     }
-
                 }
                 catch (Exception e)
                 {
@@ -78,7 +77,6 @@ namespace BaliVilla_Web.Services
                 }
                 var APIResponse = JsonConvert.DeserializeObject<T>(apiContent);
                 return APIResponse;
-
             }
             catch(Exception e)
             {
