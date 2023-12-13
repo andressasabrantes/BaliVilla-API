@@ -84,7 +84,19 @@ builder.Services.AddSwaggerGen(options =>
     options.SwaggerDoc("v1", new OpenApiInfo
     {
         Version = "v1.0",
-        Title = "Bali Villa",
+        Title = "Bali Villa V1",
+        Description = "API to manage the Villa",
+        TermsOfService = new Uri("https://example.com/terms"),
+        Contact = new OpenApiContact
+        {
+            Name = "Andressa Abrantes",
+            Url = new Uri("https://github.com/andressasabrantes")
+        }
+    });
+    options.SwaggerDoc("v2", new OpenApiInfo
+    {
+        Version = "v2.0",
+        Title = "Bali Villa V2",
         Description = "API to manage the Villa",
         TermsOfService = new Uri("https://example.com/terms"),
         Contact = new OpenApiContact
@@ -104,6 +116,7 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI(options =>
     {
         options.SwaggerEndpoint("/swagger/v1/swagger.json", "Bali_VillaV1");
+        options.SwaggerEndpoint("/swagger/v2/swagger.json", "Bali_VillaV2");
     });
 }
 
