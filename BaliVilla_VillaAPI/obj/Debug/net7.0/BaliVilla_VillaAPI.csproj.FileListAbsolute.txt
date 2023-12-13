@@ -81,3 +81,5 @@ C:\Users\andre\OneDrive\Área de Trabalho\BaliVilla-API\BaliVilla_VillaAPI\bin\D
 C:\Users\andre\OneDrive\Área de Trabalho\BaliVilla-API\BaliVilla_VillaAPI\bin\Debug\net7.0\AutoMapper.dll
 C:\Users\andre\OneDrive\Área de Trabalho\BaliVilla-API\BaliVilla_VillaAPI\bin\Debug\net7.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
 C:\Users\andre\OneDrive\Área de Trabalho\BaliVilla-API\BaliVilla_VillaAPI\bin\Debug\net7.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\andre\OneDrive\Área de Trabalho\BaliVilla-API\BaliVilla_VillaAPI\bin\Debug\net7.0\Microsoft.AspNetCore.Mvc.Versioning.dll
+C:\Users\andre\OneDrive\Área de Trabalho\BaliVilla-API\BaliVilla_VillaAPI\bin\Debug\net7.0\Microsoft.AspNetCore.Mvc.Versioning.ApiExplorer.dll
