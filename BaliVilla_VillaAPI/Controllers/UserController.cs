@@ -4,11 +4,11 @@ using BaliVilla_VillaAPI.Repository.IRepository;
 using Microsoft.AspNetCore.Mvc;
 using System.Net;
 
-namespace BaliVilla_VillaAPI.Controllers.v1
+namespace BaliVilla_VillaAPI.Controllers
 {
     [Route("api/v{version:apiVersion}/UserAuth")]
     [ApiController]
-    [ApiVersion("1.0")]
+    [ApiVersionNeutral]
     public class UserController : Controller
     {
         private readonly IUserRepository _userRepo;
