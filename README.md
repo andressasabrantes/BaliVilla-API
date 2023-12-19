@@ -58,7 +58,7 @@ The API implements token-based authentication to ensure secure access. To access
 
 # Web Project
 
-The web project of this RESTful Web API with Authentication in .NET 7 provides a user-friendly interface for interacting with the API. Below is a walkthrough of the key features with a GIF showcasing the login, registration, access denied for non-admin users, and logout functionalities.
+The web project Bali Villa provides a user-friendly interface for interacting with the API. Below is a walkthrough of the key features with a GIF showcasing the login, registration, access denied for non-admin users, and logout functionalities.
 
 - **Authentication Flow:** The web project incorporates a smooth authentication flow, allowing users to register, log in, and access protected resources based on their roles.
 
