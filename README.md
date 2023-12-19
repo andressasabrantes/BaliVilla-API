@@ -75,19 +75,10 @@ The web project Bali Villa provides a user-friendly interface for interacting wi
 
 **Admin User:**
 
-![89wfl8](https://github.com/andressasabrantes/BaliVilla-API/assets/87620436/5209d5b8-d05e-41b5-870e-8ac0c0a136f4)
+![89wksi](https://github.com/andressasabrantes/BaliVilla-API/assets/87620436/c95ad6ad-4c08-46da-96f9-404f59b8a065)
+
 
 The web project enhances the overall user experience by providing a visually appealing and intuitive interface for interacting with the API's authentication features. 
-
-
-## Contributing
-Contributions are welcome! If you find a bug or have a suggestion, please create an issue or submit a pull request.
-
-## Authentication
-The API implements token-based authentication to ensure secure access. To access protected endpoints, include your authentication token in the request headers.
-
-
-
 
 
 ## Contributing
