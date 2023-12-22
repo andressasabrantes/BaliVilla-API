@@ -68,7 +68,6 @@ The web project Bali Villa provides a user-friendly interface for interacting wi
 
 - **Logout:** Users can easily log out to terminate their session securely.
 
-
 **User Non-Admin:**
 
 ![89wfl8](https://github.com/andressasabrantes/BaliVilla-API/assets/87620436/5209d5b8-d05e-41b5-870e-8ac0c0a136f4)
