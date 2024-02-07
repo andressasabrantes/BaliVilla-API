@@ -2,6 +2,36 @@
 
 Welcome to the **RESTful Web API with Authentication in .NET 7** repository! This project demonstrates the implementation of a secure RESTful Web API using the latest .NET 7 framework. The API includes authentication mechanisms to ensure data privacy and access control.
 
+Here are the technologies used in this project:
+
+1. **Framework:**
+   - .NET 7: The project utilizes the latest features and improvements from the .NET 7 framework.
+
+2. **Web API:**
+   - RESTful API: The project follows REST architectural principles, providing a comprehensive set of endpoints for interacting with resources.
+
+3. **Authentication:**
+   - Token-based Authentication: The API implements token-based authentication to ensure secure access. Users need to include their authentication token in the request headers to access protected endpoints.
+
+4. **Web Project:**
+   - ASP.NET: The web project, named "Bali Villa," is built using ASP.NET.
+
+5. **Database:**
+   - The project uses Microsoft SQL Server as the relational database management system (RDBMS) and utilizes Entity Framework, which is a popular Object-Relational Mapping framework for .NET. It provides a convenient way to interact with a relational database using object-oriented programming concepts.
+
+6. **API Endpoints:**
+   - The project defines multiple API endpoints for different resources, such as Users, VillaAPI, and VillaNumberAPI.
+
+7. **Documentation:**
+   - Swagger: The API is documented using Swagger, providing a user-friendly interface to explore and test the available endpoints.
+
+8. **Web Interface:**
+   - The web project (Bali Villa) includes a user-friendly interface for interacting with the API's authentication features. The authentication flow, login, registration, access control, and logout functionalities are showcased in the interface.
+
+9. **Sample Data:**
+   - The project includes pre-seeded sample data to facilitate exploration of the API.
+
+
 ## Features
 
 - **RESTful API:** Build and interact with a comprehensive set of endpoints following REST architectural principles.
