@@ -2,7 +2,7 @@
 
 Welcome to the **RESTful Web API with Authentication in .NET 7** repository! This project demonstrates the implementation of a secure RESTful Web API using the latest .NET 7 framework. The API includes authentication mechanisms to ensure data privacy and access control.
 
-Here are the technologies used in this project:
+Here are the technologies used in this project: 
 
 1. **Framework:**
    - .NET 7: The project utilizes the latest features and improvements from the .NET 7 framework.
